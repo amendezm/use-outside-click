@@ -1,0 +1,31 @@
+{
+  "name": "use-dom-outside-click",
+  "version": "1.0.0",
+  "description": "react hook to handle outside click on elements",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amendezm/use-outside-click.git"
+  },
+  "keywords": [
+    "react",
+    "hook",
+    "outside",
+    "click",
+    "event"
+  ],
+  "author": "amendezm",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amendezm/use-outside-click/issues"
+  },
+  "homepage": "https://github.com/amendezm/use-outside-click#readme",
+  "devDependencies": {
+    "@types/react": "^18.0.26",
+    "react": "^18.2.0",
+    "typescript": "^4.9.4"
+  }
+}
