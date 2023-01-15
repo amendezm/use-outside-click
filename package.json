@@ -1,6 +1,6 @@
 {
   "name": "use-dom-outside-click",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "react hook to handle outside click on elements",
   "scripts": {
     "rollup": "rollup -c"
