@@ -1,6 +1,12 @@
 # use-dom-outside-click
 
-react hook for handle outside click events
+> react hook for handle outside click events 
+
+<p>
+  <a href="https://www.npmjs.com/package/use-dom-outside-click">
+    <img alt="Version" src="https://img.shields.io/npm/v/use-dom-outside-click.svg">
+  </a>
+</p>
 
 ## Getting Started
 
