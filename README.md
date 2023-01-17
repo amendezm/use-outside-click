@@ -23,7 +23,7 @@ const triggerRef = useRef<HTMLButtonElement>();
 const panelRef= useRef<HTMLDivElement>();
 
 // third argument is optional
-useOutsideClick(menuRef, () => setIsPanelOpen(false), [triggerRef]);
+useOutsideClick(panelRef, () => setIsPanelOpen(false), [triggerRef]);
 
 const handleClick = () => {
   setIsPanelOpen(open => !open)
@@ -40,4 +40,3 @@ const handleClick = () => {
 ```
 
 ![chrome_7DgcqHreNp](https://user-images.githubusercontent.com/26444448/212521263-288f54ce-d71e-465d-8e0e-838e0a54ffac.gif)
-
