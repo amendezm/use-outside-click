@@ -40,3 +40,13 @@ const handleClick = () => {
 ```
 
 ![chrome_7DgcqHreNp](https://user-images.githubusercontent.com/26444448/212521263-288f54ce-d71e-465d-8e0e-838e0a54ffac.gif)
+
+## Reference
+
+```tsx
+useOutsideClick(elementRef, callback, [...exceptionsRefs]);
+```
+
+- `elementRef` - reference of the element from which you want to detect the outside click
+- `calback` - function to execute when clicked outside the element
+- `exceptionsRefs` (optional) - array of references in which you want to prevent the callback from being executed if they are clicked
