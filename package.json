@@ -1,6 +1,6 @@
 {
   "name": "use-dom-outside-click",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "react hook to handle outside click on elements",
   "scripts": {
     "rollup": "rollup -c"
@@ -28,12 +28,14 @@
     "@rollup/plugin-terser": "^0.3.0",
     "@rollup/plugin-typescript": "^11.0.0",
     "@types/react": "^18.0.26",
-    "react": "^18.2.0",
     "rollup": "^3.10.0",
     "rollup-plugin-dts": "^5.1.1",
     "rollup-plugin-peer-deps-external": "^2.2.4",
     "tslib": "^2.4.1",
     "typescript": "^4.9.4"
+  },
+  "peerDependencies": {
+    "react": "^18.2.0"
   },
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
