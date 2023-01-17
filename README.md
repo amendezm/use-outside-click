@@ -48,5 +48,5 @@ useOutsideClick(elementRef, callback, [...exceptionsRefs]);
 ```
 
 - `elementRef` - reference of the element from which you want to detect the outside click
-- `calback` - function to execute when clicked outside the element
+- `callback` - function to execute when clicked outside the element
 - `exceptionsRefs` (optional) - array of references in which you want to prevent the callback from being executed if they are clicked
