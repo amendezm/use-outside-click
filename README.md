@@ -1,6 +1,6 @@
 # use-dom-outside-click
 
-> react hook for handle outside click events 
+> react hook to handle outside click events 
 
 <p>
   <a href="https://www.npmjs.com/package/use-dom-outside-click">
