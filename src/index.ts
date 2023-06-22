@@ -1,3 +1,5 @@
+"use client";
+
 import { MutableRefObject, useEffect } from "react";
 
 const useOutsideClick = <T extends HTMLElement>(
