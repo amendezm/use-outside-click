@@ -23,6 +23,10 @@ yarn add use-dom-outside-click
 ## Example
 
 ```tsx
+import { useOutsideClick } from 'use-dom-outside-click';
+```
+
+```tsx
 const [isPanelOpen, setIsPanelOpen] = useState(false)
 
 const triggerRef = useRef<HTMLButtonElement>();
